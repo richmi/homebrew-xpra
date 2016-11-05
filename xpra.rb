@@ -33,9 +33,8 @@ class Xpra < Formula
   depends_on 'Homebrew/python/pillow'
 
   resource 'cython' do
-    #url 'http://cython.org/release/Cython-0.22.tar.gz'
-    #sha256 '14307e7a69af9a0d0e0024d446af7e51cc0e3e4d0dfb10d36ba837e5e5844015'
     url 'https://pypi.python.org/packages/f8/25/80f9ca7e31e2b68cc942ff1d6136588f33a7aef5e2d6abe3f2183cb9fad5/cython-0.22.tar.gz#md5=1ae25add4ef7b63ee9b4af697300d6b6'
+    sha256 '14307e7a69af9a0d0e0024d446af7e51cc0e3e4d0dfb10d36ba837e5e5844015'
   end
 
   def install
